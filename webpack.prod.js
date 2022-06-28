@@ -4,7 +4,7 @@ const webpack = require("webpack");
 require("dotenv").config();
 
 module.exports = {
-  entry: [path.resolve(__dirname, ".index.js"), "regenerator-runtime/runtime"],
+  entry: [path.resolve(__dirname, "index.js"), "regenerator-runtime/runtime"],
   output: {
     path: path.resolve(__dirname, "dist/app"),
     filename: "main.js",
