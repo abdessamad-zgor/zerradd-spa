@@ -13,7 +13,7 @@ function HTML(props) {
         <link href="/dist/css/prettyphoto.css" rel="stylesheet" />
         <link href="/dist/css/styles.css" rel="stylesheet" />
         <script src="/dist/js/html5shiv.js"></script>
-        <script src="/distjs/respond.min.js"></script>
+        <script src="/dist/js/respond.min.js"></script>
         <link rel="shortcut icon" href="/dist/images/ico/favicon.ico" />
       </head>
       <body id="root" dangerouslySetInnerHTML={{ __html: props.html }}></body>
