@@ -10,12 +10,11 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <h2> {t("home-start")} <b></b></h2>
+              <h1> {t("home-start-h")} <b></b></h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisici <br />
-                Praesent eget risus.
+              {t("home-start-p")}
               </p>
-              <a className="btn btn-primary btn-lg" href="#">Packages</a>
+              <a className="btn btn-primary btn-lg" href="#">{t("home-start-btn")}</a>
             </div>
           </div>
         </div>
@@ -25,10 +24,9 @@ function Home() {
     <section id="services">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Whats Best For You</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-services-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-services-p")}
           </p>
         </div>
       </div>
@@ -41,10 +39,9 @@ function Home() {
                 <i className="fa fa-futbol-o"></i>
 
               <div className="media-body">
-                <h4 className="media-heading">Aroma Therapy</h4>
+                <h4 className="media-heading">{t("service-1-h")}</h4>
                 <p>
-                  Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters
-                  greater
+                {t("service-1-p")}
                 </p>
               </div>
             </div>
@@ -56,10 +53,9 @@ function Home() {
                 <i className="fa fa-compass"></i>
 
               <div className="media-body">
-                <h4 className="media-heading">Face Massage</h4>
+                <h4 className="media-heading">{t("service-2-h")}</h4>
                 <p>
-                  Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters
-                  greater
+                {t("service-2-p")}
                 </p>
               </div>
             </div>
@@ -71,10 +67,9 @@ function Home() {
                 <i className="fa fa-database"></i>
 
               <div className="media-body">
-                <h4 className="media-heading">Manicure</h4>
+                <h4 className="media-heading">{t("service-3-h")}</h4>
                 <p>
-                  Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend
-                  ipsum.
+                {t("service-3-p")}
                 </p>
               </div>
             </div>
@@ -85,10 +80,9 @@ function Home() {
                   <i className="fa fa-bar-chart"></i>
   
                 <div className="media-body">
-                  <h4 className="media-heading">Body Spa</h4>
+                  <h4 className="media-heading">{t("service-4-h")}</h4>
                   <p>
-                    Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend
-                    ipsum.
+                  {t("service-4-h")}
                   </p>
                 </div>
               </div>
@@ -100,10 +94,9 @@ function Home() {
                   <i className="fa fa-paper-plane-o"></i>
   
                 <div className="media-body">
-                  <h4 className="media-heading">Head Massage</h4>
+                  <h4 className="media-heading">{t("service-5-h")}</h4>
                   <p>
-                    Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend
-                    ipsum.
+                  {t("service-5-p")}
                   </p>
                 </div>
               </div>
@@ -115,10 +108,9 @@ function Home() {
                   <i className="fa fa-bullseye"></i>
   
                 <div className="media-body">
-                  <h4 className="media-heading">Hair Spa</h4>
+                  <h4 className="media-heading">{t("service-6-h")}</h4>
                   <p>
-                    Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend
-                    ipsum.
+                  {t("service-6-p")}
                   </p>
                 </div>
               </div>
@@ -131,10 +123,9 @@ function Home() {
     <section id="about">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Who we are</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-about-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-about-p")}
           </p>
         </div>
 
@@ -144,22 +135,19 @@ function Home() {
           </div>
 
           <div className="col-sm-6 wow fadeInRight">
-            <h3 className="column-title">Our Beauty Studio</h3>
+            <h3 className="column-title">{t("home-spa-h")}</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam
-              quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa,
-              eu eleifend ipsum.
+            {t("home-spa-p-1")}
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam
-              quis mattis quam adipiscing elit. Praesent eget risus vitae massa.
+            {t("home-spa-p-2")}
             </p>
             <ul className="listarrow">
-              <li><i className="fa fa-angle-double-right"></i>Aroma Therapy</li>
-              <li><i className="fa fa-angle-double-right"></i>Manicure</li>
-              <li><i className="fa fa-angle-double-right"></i>Massage</li>
-              <li><i className="fa fa-angle-double-right"></i>Body Spa</li>
-              <li><i className="fa fa-angle-double-right"></i>Hair Spa</li>
+              <li><i className="fa fa-angle-double-right"></i>{t("service-1-h")}</li>
+              <li><i className="fa fa-angle-double-right"></i>{t("service-2-h")}</li>
+              <li><i className="fa fa-angle-double-right"></i>{t("service-3-h")}</li>
+              <li><i className="fa fa-angle-double-right"></i>{t("service-4-h")}</li>
+              <li><i className="fa fa-angle-double-right"></i>{t("service-5-h")}</li>
             </ul>
           </div>
         </div>
@@ -169,10 +157,9 @@ function Home() {
     <section id="our-team">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">OUR TEAM</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-team-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-team-p")}
           </p>
         </div>
 
@@ -183,19 +170,14 @@ function Home() {
                 <img className="img-responsive" src="/dist/images/team/01.jpg" alt="" />
               </div>
               <div className="team-info">
-                <h3>Micky Deo</h3>
-                <span>Founder</span>
+                <h3>{t("home-team-1-h")}</h3>
+                <span>{t("home-team-1-span")}</span>
               </div>
               <ul className="social-icons">
                 <li>
                   <a href="#"><i className="fa fa-facebook"></i></a>
                 </li>
-                <li>
-                  <a href="#"><i className="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-google-plus"></i></a>
-                </li>
+                
                 <li>
                   <a href="#"><i className="fa fa-linkedin"></i></a>
                 </li>
@@ -208,75 +190,22 @@ function Home() {
                 <img className="img-responsive" src="/dist/images/team/02.jpg" alt="" />
               </div>
               <div className="team-info">
-                <h3>Mike Timobbs</h3>
-                <span>Sr. Dresser</span>
+                <h3>{t("home-team-2-h")}</h3>
+                <span>{t("home-team-2-span")}</span>
               </div>
               <ul className="social-icons">
                 <li>
                   <a href="#"><i className="fa fa-facebook"></i></a>
                 </li>
-                <li>
-                  <a href="#"><i className="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-google-plus"></i></a>
-                </li>
+                
                 <li>
                   <a href="#"><i className="fa fa-linkedin"></i></a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-              <div className="team-img">
-                <img className="img-responsive" src="/dist/images/team/03.jpg" alt="" />
-              </div>
-              <div className="team-info">
-                <h3>Remo Silvaus</h3>
-                <span>Sr. Therapist</span>
-              </div>
-              <ul className="social-icons">
-                <li>
-                  <a href="#"><i className="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-linkedin"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-              <div className="team-img">
-                <img className="img-responsive" src="/dist/images/team/04.jpg" alt="" />
-              </div>
-              <div className="team-info">
-                <h3>Niscal Deon</h3>
-                <span>Massager</span>
-              </div>
-              <ul className="social-icons">
-                <li>
-                  <a href="#"><i className="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i className="fa fa-linkedin"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          
+          
         </div>
       </div>
     </section>
@@ -284,10 +213,9 @@ function Home() {
     <section id="portfolio">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Gallery</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-gallery-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-gallery-p")}
           </p>
         </div>
 
@@ -376,52 +304,14 @@ function Home() {
       </div>
     </section>
 
-    <section id="business-stats">
-      <div className="container">
-        <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Healty Report</h2>
-          <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
-          </p>
-        </div>
-
-        <div className="row text-center">
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-              <div className="business-stats" data-digit="6850" data-duration="1000"></div>
-              <strong>Clients</strong>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-              <div className="business-stats" data-digit="1465" data-duration="1000"></div>
-              <strong>Trainer</strong>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-              <div className="business-stats" data-digit="4325" data-duration="1000"></div>
-              <strong>Programs</strong>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <div className="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-              <div className="business-stats" data-digit="2568" data-duration="1000"></div>
-              <strong>Successes</strong>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <section className="testimonial-area" id="testimonial">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Testimonial</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-testi-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-testi-p")}
           </p>
         </div>
         <div className="row">
@@ -430,8 +320,7 @@ function Home() {
               <div className="row">
                 <div className="col-xs-12">
                   <blockquote>
-                    Sontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classNameical
-                    Layears old. belief, Lorem Ipsuis not simply
+                  {t("testimonial-1-bq")}
                   </blockquote>
                 </div>
               </div>
@@ -440,8 +329,7 @@ function Home() {
                   <img src="/dist/images/pic1.jpg" alt="client" />
                 </div>
                 <div className="col-xs-9 half-gutter">
-                  <h5>John Bond</h5>
-                  <h6>Lorem Ipsuis simply</h6>
+                  <h5>{t("person-1")}</h5>
                 </div>
               </div>
             </div>
@@ -451,8 +339,7 @@ function Home() {
               <div className="row">
                 <div className="col-xs-12">
                   <blockquote>
-                    Tontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classNameical
-                    Layears old. belief, Lorem Ipsuis not simply
+                  {t("testimonial-2-bq")}
                   </blockquote>
                 </div>
               </div>
@@ -461,8 +348,7 @@ function Home() {
                   <img src="/dist/images/pic2.jpg" alt="client" />
                 </div>
                 <div className="col-xs-9 half-gutter">
-                  <h5>John Bond</h5>
-                  <h6>Lorem Ipsuis simply</h6>
+                  <h5>{t("person-2")}</h5>
                 </div>
               </div>
             </div>
@@ -472,8 +358,7 @@ function Home() {
               <div className="row">
                 <div className="col-xs-12">
                   <blockquote>
-                    Aontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classNameical
-                    Layears old. belief, Lorem Ipsuis not simply
+                  {t("testimonial-3-bq")}
                   </blockquote>
                 </div>
               </div>
@@ -482,8 +367,7 @@ function Home() {
                   <img src="/dist/images/pic1.jpg" alt="client" />
                 </div>
                 <div className="col-xs-9 half-gutter">
-                  <h5>John Bond</h5>
-                  <h6>Lorem Ipsuis simply</h6>
+                  <h5>{t("person-3")}</h5>
                 </div>
               </div>
             </div>
@@ -494,10 +378,9 @@ function Home() {
     <section id="contact-us">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title wow fadeInDown">Contact Us</h2>
+          <h2 className="section-title wow fadeInDown">{t("home-contact-h")}</h2>
           <p className="wow fadeInDown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+          {t("home-contact-p")}
           </p>
         </div>
       </div>
@@ -509,7 +392,7 @@ function Home() {
           <div className="row">
             <div className="col-sm-4 col-md-4">
               <div className="contact-form">
-                <h3>Contact Info</h3>
+                <h3>{t("home-contact-info")}</h3>
 
                 <address>
                   <strong>Aroma Spa, Inc.</strong><br />
@@ -534,7 +417,7 @@ function Home() {
                   <div className="form-group">
                     <textarea name="message" className="form-control" rows="8" placeholder="Message" required></textarea>
                   </div>
-                  <button type="submit" className="btn btn-primary">Send Message</button>
+                  <button type="submit" className="btn btn-primary">{t("home-contact-btn")}</button>
                 </form>
               </div>
             </div>

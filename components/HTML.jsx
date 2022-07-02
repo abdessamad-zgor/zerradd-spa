@@ -2,11 +2,11 @@ function HTML(props) {
   return (
     <html lang="en">
       <head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="" />
         <meta name="author" content="asoulSolutions" />
-        <title>Aroma-Beauty-and-Spa-Responsive-Bootstrap-Template</title>
+        <title>Home | Center zerrad - center de service de bien etre</title>
         <link href="/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/dist/css/font-awesome.min.css" rel="stylesheet" />
         <link href="/dist/css/animate.min.css" rel="stylesheet" />
