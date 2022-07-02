@@ -1,6 +1,8 @@
 import React from "react";
+import {useTranslation} from 'react-i18next'
 
 function Home() {
+  const {t} = useTranslation()
   return( 
   <div>
     <section id="hero-banner">
@@ -8,7 +10,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <h2>More Beautiful than <b>EVER</b></h2>
+              <h2> {t("home-start")} <b></b></h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisici <br />
                 Praesent eget risus.
