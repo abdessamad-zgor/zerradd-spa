@@ -1,6 +1,6 @@
 function HTML(props) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,6 +19,9 @@ function HTML(props) {
       <body id="root" dangerouslySetInnerHTML={{ __html: props.html }}></body>
       
       <script type="application/javascript" src="/dist/app/main.js" />
+      <script dangerouslySetInnerHTML={{
+        __html: `window.__I18N_STORE__=${JSON.stringify(props.i18n)}`
+      }}/>
     </html>
   );
 }

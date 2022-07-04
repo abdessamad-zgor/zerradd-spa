@@ -300,10 +300,10 @@ background: #FFF;
   line-height: 49px; 
 
   text-align: right;  
-  color: #000000;
+  color: #004e1f;
 }
 #hero-banner h2 b{
-color: #FFFFFF;
+color: #004e1f;
 }
 #hero-banner p { 
   font-size: 22px; 
@@ -311,13 +311,13 @@ margin-bottom:20px;
 line-height:35px; 
 
   text-align: right;
-  color: #FFF;
+  color: #000;
 }
 #hero-banner a{
 width: 150px;
 margin: 0;
 display: block;
-background: transparent;
+background:  #004e1f;;
 border: 2px solid #fff;
 float: right;
 }
