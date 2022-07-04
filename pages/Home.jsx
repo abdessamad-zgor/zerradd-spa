@@ -1,5 +1,6 @@
 import React from "react";
 import {useTranslation} from 'react-i18next'
+import Contactform from '../components/Contactform'
 
 function Home() {
   const {t} = useTranslation()
@@ -9,8 +10,8 @@ function Home() {
       <div className="banner-inner">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12">
-              <h1> {t("home-start-h")} <b></b></h1>
+            <div className="col-md-12">
+              <h1> {t("home-start-h")} </h1>
               <p>
               {t("home-start-p")}
               </p>
@@ -31,9 +32,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="row">
         <div className="features">
-          <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
             <div className="media service-box">
               
                 <i className="fa fa-futbol-o"></i>
@@ -44,10 +43,8 @@ function Home() {
                 {t("service-1-p")}
                 </p>
               </div>
-            </div>
           </div>
 
-          <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
             <div className="media service-box">
               
                 <i className="fa fa-compass"></i>
@@ -58,10 +55,8 @@ function Home() {
                 {t("service-2-p")}
                 </p>
               </div>
-            </div>
           </div>
 
-          <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
             <div className="media service-box">
               
                 <i className="fa fa-database"></i>
@@ -71,10 +66,8 @@ function Home() {
                 <p>
                 {t("service-3-p")}
                 </p>
-              </div>
             </div>
 
-            <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
               <div className="media service-box">
                 
                   <i className="fa fa-bar-chart"></i>
@@ -85,10 +78,8 @@ function Home() {
                   {t("service-4-h")}
                   </p>
                 </div>
-              </div>
             </div>
 
-            <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
               <div className="media service-box">
                 
                   <i className="fa fa-paper-plane-o"></i>
@@ -99,10 +90,8 @@ function Home() {
                   {t("service-5-p")}
                   </p>
                 </div>
-              </div>
             </div>
 
-            <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
               <div className="media service-box">
                 
                   <i className="fa fa-bullseye"></i>
@@ -113,10 +102,8 @@ function Home() {
                   {t("service-6-p")}
                   </p>
                 </div>
-              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -404,21 +391,7 @@ function Home() {
             </div>
             <div className="col-sm-8 col-md-8">
               <div className="contact-form">
-                <form id="main-contact-form" name="contact-form" method="post" action="#">
-                  <div className="form-group">
-                    <input type="text" name="name" className="form-control" placeholder="Name" required />
-                  </div>
-                  <div className="form-group">
-                    <input type="email" name="email" className="form-control" placeholder="Email" required />
-                  </div>
-                  <div className="form-group">
-                    <input type="text" name="subject" className="form-control" placeholder="Subject" required />
-                  </div>
-                  <div className="form-group">
-                    <textarea name="message" className="form-control" rows="8" placeholder="Message" required></textarea>
-                  </div>
-                  <button type="submit" className="btn btn-primary">{t("home-contact-btn")}</button>
-                </form>
+                <Contactform/>
               </div>
             </div>
           </div>

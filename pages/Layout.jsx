@@ -7,7 +7,7 @@ function Layout() {
   return (
     <div>
         <Navbar/>
-        <div><Outlet/></div>
+        <div style={{paddingTop: "7em"}}><Outlet/></div>
         <Footer/>
     </div>
   )

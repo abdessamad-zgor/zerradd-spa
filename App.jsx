@@ -11,9 +11,8 @@ import About from "./pages/About";
 
 function App(props) {
   let Router = process.env.BROWSER ? BrowserRouter : StaticRouter;
-  let initI18n = process.env.BROWSER? useSSR(JSON.parse(JSON.stringify(window.__I18N_STATE__)),"fr"):(()=>{})()
+ process.env.BROWSER? useSSR(window.__I18N_STORE__,"fr"):(()=>{})()
 
-  initI18n
 
   let routerProps = process.env.BROWSER
     ? { basename: "/" }

@@ -278,6 +278,7 @@ background: #FFF;
   height: 700px;
   background: url('../images/organic-spa-products-white-background.jpg');
   background-size:cover;
+  background-attachment: fixed;
   color:#fff;
 }
 #hero-banner.item {
@@ -294,7 +295,7 @@ background: #FFF;
   height: 100%;
   color: #000;
 }
-#hero-banner h2 {
+#hero-banner h1 {
   margin-top: 299px;
   font-size: 39px;
   line-height: 49px; 
@@ -377,11 +378,12 @@ color: #020202;
   padding: 100px 0 75px;
   background-color: #98DC95;
   border-top: 3px solid #fff;
-  background: url('../images/img2.jpg');      background-size: cover;
+  background: url('../images/lisbon.svg') repeat;      background-size: 10%;
 }
 .media.service-box {
   margin: 25px 0 36px;
   padding: 20px;
+  width:30%;
   padding-left: 86px;
   position: relative;
   background: #FFFFFF;
@@ -418,8 +420,15 @@ color: #FFFFFF;
 font-size: 30px;
 padding-top: 10px;
 }
-.media.service-box:hover .pull-left > i {  
+.features{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+
 #portfolio {
   padding: 100px 0;
   background: #FFFFFF;

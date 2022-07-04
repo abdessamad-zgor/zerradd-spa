@@ -12,11 +12,14 @@ function HTML(props) {
         <link href="/dist/css/animate.min.css" rel="stylesheet" />
         <link href="/dist/css/prettyphoto.css" rel="stylesheet" />
         <link href="/dist/css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/dist/css/new-styles.css" />
         <script src="/dist/js/html5shiv.js"></script>
         <script src="/dist/js/respond.min.js"></script>
         <link rel="shortcut icon" href="/dist/images/ico/favicon.ico" />
       </head>
-      <body id="root" dangerouslySetInnerHTML={{ __html: props.html }}></body>
+      <body id="root" dangerouslySetInnerHTML={{ __html: props.html }}>
+        
+      </body>
       
       <script type="application/javascript" src="/dist/app/main.js" />
       <script dangerouslySetInnerHTML={{
